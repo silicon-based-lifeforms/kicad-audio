@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "KiCADAudio")(type "KiCad")(uri "/home/joshua/Dropbox/Projects/kicad-audio")(options "")(descr ""))
+)
