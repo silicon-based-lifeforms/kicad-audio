@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Amphenol_ACJS-IH"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -230,63 +230,63 @@
 			)
 		)
 	)
-	(pad "R" thru_hole circle
-		(at 0 6.5)
-		(size 2.0066 2.0066)
-		(drill 1.4986)
+	(pad "R" thru_hole oval
+		(at 0 6.25)
+		(size 1.6 2.6)
+		(drill oval 0.65 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "89698ee9-f8cd-4562-b5a2-60219991c898")
 	)
-	(pad "RN" thru_hole circle
-		(at 16.299998 6.5)
-		(size 2.0066 2.0066)
-		(drill 1.4986)
+	(pad "RN" thru_hole oval
+		(at 16.299998 6.25)
+		(size 1.6 2.6)
+		(drill oval 0.65 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "4a576dc2-646a-4944-abf8-0a81f48edfba")
 	)
-	(pad "S" thru_hole circle
+	(pad "S" thru_hole oval
 		(at 0 0)
-		(size 2.0066 2.0066)
-		(drill 1.4986)
+		(size 1.6 2.6)
+		(drill oval 0.65 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "0213aa55-b79b-4570-be56-23cae5e8af4c")
 	)
-	(pad "SN" thru_hole circle
+	(pad "SN" thru_hole oval
 		(at 16.299998 0)
-		(size 2.0066 2.0066)
-		(drill 1.4986)
+		(size 1.6 2.6)
+		(drill oval 0.65 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "fa47e094-3806-4e60-9f27-ee53b4c28055")
 	)
-	(pad "T" thru_hole circle
-		(at 0 12.999999)
-		(size 2.0066 2.0066)
-		(drill 1.4986)
+	(pad "T" thru_hole oval
+		(at 0 12.5)
+		(size 1.6 2.6)
+		(drill oval 0.65 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "b15db3d6-5590-41a9-818f-38829f6e1ddc")
 	)
-	(pad "TN" thru_hole circle
-		(at 16.299998 12.999999)
-		(size 2.0066 2.0066)
-		(drill 1.4986)
+	(pad "TN" thru_hole oval
+		(at 16.299998 12.5)
+		(size 1.6 2.6)
+		(drill oval 0.65 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "58ec65d3-4455-4ecb-9cfa-72b0c1c352ee")
 	)
-	(model "${KIPRJMOD}/KiCADAudio.3dshapes/ACJS-MHOM.stp"
+	(model "${KIPRJMOD}/lib/kicad-audio/KiCadAudio.3dshapes/ACJS-IH.STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz 8.15 -6.25 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 90 -180 -180)
 		)
 	)
 )
